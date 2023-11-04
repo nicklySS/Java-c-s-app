@@ -1,3 +1,3 @@
-# dsadadasdasdasdasdsad
+# Java client/server TCP/IP application
 
-dasdasdas dsadasdsda das das 
+This is my first small client/server application, written on Java.
