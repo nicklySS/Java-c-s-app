@@ -60,7 +60,7 @@ CREATE TABLE `furtype` (
   `name` char(100) NOT NULL,
   `descr` char(250) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -69,7 +69,7 @@ CREATE TABLE `furtype` (
 
 LOCK TABLES `furtype` WRITE;
 /*!40000 ALTER TABLE `furtype` DISABLE KEYS */;
-INSERT INTO `furtype` VALUES (1,'Стол','Здесь идет описание данного типа мебели'),(2,'Стул','Здесь идет описание данного типа мебели'),(3,'Шкаф','Здесь идет описание данного типа мебели'),(7,'Кровать','Здесь идет описание данного типа мебели');
+INSERT INTO `furtype` VALUES (1,'Стол','Здесь идет описание данного типа мебели'),(2,'Стул','Здесь идет описание данного типа мебели'),(3,'Шкаф','Здесь идет описание данного типа мебели'),(4,'Кровать','Здесь идет описание данного типа мебели');
 /*!40000 ALTER TABLE `furtype` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
